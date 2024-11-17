@@ -1,0 +1,12 @@
+[package]
+name = "Blogging_platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+BlogPlatform = "0x92a0e1cb6a101fcbae35bf1f27f045825cc9a8d2925000066d3c007d96745ba4"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "devnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
